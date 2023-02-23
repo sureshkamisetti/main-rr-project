@@ -94,6 +94,15 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+#section2-2:hover #icon2{
+    background-color: rgb(146, 140, 140);
+}
+#section2-2 #icon2:hover{
+    color: white;
+    background-color:black;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
 #section2-3{
     width: 60%;
 }
@@ -115,7 +124,7 @@ nav{
     color: #333;
 }
 input{
-    width: 250px;
+    width: 43%;
     height: 40px;
     padding-left: 10px;
    background-color: #f7fafa;
@@ -129,7 +138,7 @@ input{
 #ln{
     width: fit-content;
    position:relative;
-   left: 285px;
+   left: 48%;
    top: -15px;
 }
 #forrm{
