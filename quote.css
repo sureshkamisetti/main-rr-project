@@ -38,6 +38,16 @@ nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 1px;
 }
+#nav-bar:hover{
+    color:rgb(168, 155, 155) ;
+}
+#naviii{
+    color: rgb(125, 121, 121);
+}
+#naviii:hover{
+    transform: scale(1.2);
+    color: black;
+}
 #section1{
     width: 100%;
     background-image: url("./img/6-1.jpg");
