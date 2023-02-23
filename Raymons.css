@@ -204,6 +204,53 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+
+#section7-1:hover #icon1{
+    background-color:#333;
+}
+#section7-1:hover #icon2{
+    background-color:#333;
+}
+#section7-1:hover #icon3{
+    background-color:#333;
+}
+#section7-1:hover #icon4{
+    background-color:#333;
+}
+#section7-1:hover #icon5{
+    background-color:#333;
+}
+#section7-1 #icon1:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#section7-1 #icon2:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#section7-1 #icon3:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#section7-1 #icon4:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+#section7-1 #icon5:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
 #section7-2{
     width: 70%;
     display: flex;
@@ -211,13 +258,14 @@ nav{
     color: #ffffff;
     margin-top: 0.8%;
 }
-#icon1{
+#icon1,#icon2,#icon3,#icon4,#icon5{
     padding: 7px;
     background-color:#ffffff;
     color: black;
     border-radius: 220%;
     font-size: medium;
 }
+
 #top{
     color: black;
     padding: 1%;

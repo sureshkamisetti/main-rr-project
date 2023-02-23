@@ -113,6 +113,15 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+#section7-1:hover #icon1{
+    background-color: #333;
+}
+#section7-1 #icon1:hover{
+    color: black;
+    background-color:white;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
 #section7-2{
     width: 70%;
     display: flex;
