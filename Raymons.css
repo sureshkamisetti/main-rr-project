@@ -39,6 +39,9 @@ nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 1px;
 }
+.nav-list:hover{
+    transform: scale(1.2);
+}
 #nav-bar:hover{
     color:rgb(168, 155, 155) ;
 }

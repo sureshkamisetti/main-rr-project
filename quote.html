@@ -47,32 +47,33 @@
                     <p class="description1">Click <a href="" style="text-decoration: none; color: black;">HERE</a> to Request a Quote</p>
                 </div>
                 <div id="section2-3">
-                    <form action="">
+                    <form action="" id="submitform">
                        <div id="forrm">
                         <label for="">Your name *</label><br>
-                       <input type="text" name="" id="">
+                       <input type="text" name="" id="inp1" required>
                        <input type="text" name="" id="inp2">
                        <p style="width: fit-content;">First Name</p>
                        <p id="ln">Last Name</p>
                        </div>
                        <div id="forrm">
                         <label for="">Phone</label><br>
-                        <input type="text" name="" id="inp3">
-                        <input type="text" name="" id="inp4">
-                        <input type="text" name="" id="inp4"><br>
+                        <input type="tel" name="" id="inp3" minlength="4" maxlength="4" required>
+                        <input type="tel" name="" id="inp4" minlength="3" maxlength="3" required>
+                        <input type="tel" name="" id="inp4" minlength="3" maxlength="3" required><br>
                         <p style="word-spacing: 60px;margin-top: 5px;font-weight: bolder;">(###) ###  ###</p>
                        </div>
                        <div id="forrm">
                         <label for="">
                             Email Address *
                         </label><br>
-                        <input type="text" name="" id="" style="width: 520px;">
+                        <input type="email" name="" id="mail" style="width: 520px;" required>
                        </div>
                        <div id="forrm">
                         <label for="">Message *</label><br>
-                        <textarea name="" id="" cols="30" rows="10" style="width:530px ;"></textarea>
-                       </div>
-                       <div id="forrm"><button>submit</button></div>
+                        <textarea name="" id="msg" cols="30" rows="10" style="width:530px ;" required></textarea>
+                       </div><br>
+                       <h6 id="warn"></h6>
+                       <div id="forrm"><button id="btn" onclick="fun()">submit</button></div>
                     </form>
                 </div>
             </div>
@@ -98,4 +99,25 @@
             </div>
            </section>
     </main>
+    <script>
+        
+        function fun(){
+            let submitform=document.getElementById("submitform");
+        let btn=document.getElementById("btn");
+        let mob=document.getElementById("inp3").value
+        let mob1=document.getElementById("inp4").value
+        let nm=document.getElementById("inp1").value
+        let mail=document.getElementById("mail").value
+        let msg=document.getElementById("msg").value
+        let warn=document.getElementById("warn")
+            if(mob!="" && mob1!="" && nm!="" && mail!="" && msg!=""){
+                submitform.innerHTML="<center><h1>Thankyou For The Submission.</h1><center>"
+            }
+            else{
+                warn.innerHTML="<h2>Fill all the Details Correctly</h2>"
+                warn.style.color="red"
+            }
+            
+        }
+    </script>
 </body>

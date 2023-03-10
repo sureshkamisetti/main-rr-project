@@ -48,6 +48,9 @@ nav{
     transform: scale(1.2);
     color: black;
 }
+.nav-list:hover{
+    transform: scale(1.2);
+}
 #section1{
     width: 100%;
     background-image: url("./img/5-3.jpg");
