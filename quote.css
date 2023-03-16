@@ -30,6 +30,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-right: 7%;
+    flex-wrap: wrap;
 }
 .nav-list{
     text-decoration: none;
